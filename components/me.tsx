@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Me() {
   return (
     <>
-      <div className="grid justify-items-center gap-4 lg:grid-cols-3 w-full">
+      <div className="grid justify-items-center gap-4 xl:grid-cols-3 w-full">
         <Image 
           src="/images/alsome.jpg" 
           width={500}
@@ -11,7 +11,7 @@ export default function Me() {
           alt="Me again" 
           className="rounded"
         />
-        <div className="flex flex-col items-start justify-start lg:px-12 lg:col-span-2">
+        <div className="flex flex-col items-start justify-start xl:px-12 xl:col-span-2">
           <h2 className="pb-6">Hello World</h2>
           <p>
             My name is Leonardo. I am a programmer from São Paulo, Brazil, currently living in Portugal and completing my graduation.<br/><br/>

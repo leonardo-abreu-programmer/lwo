@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Music() {
   return (
-    <div className="grid lg:grid-cols-2 gap-4">
+    <div className="grid xl:grid-cols-2 gap-4">
         <Image 
           src="/images/music.jpg"
           width={700}
@@ -10,7 +10,7 @@ export default function Music() {
           alt="Pulse show" 
           className="rounded-xl"
         />
-        <div className="order-first lg:order-last lg:px-12">
+        <div className="order-first xl:order-last xl:px-12">
           <h2 className="pb-6">Music</h2>
           <p>
             Music has been an important part of my life since forever. <br/><br/>

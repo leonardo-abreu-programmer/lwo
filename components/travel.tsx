@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Travel() {
   return (
-    <div className="grid lg:grid-cols-2 gap-4">
+    <div className="grid xl:grid-cols-2 gap-4">
         <div className="h-min">
           <h2 className="pb-6">Travel</h2>
           <p className="pr-6">
@@ -11,7 +11,7 @@ export default function Travel() {
             So far, I have not traveled to many places, but I have several photographs of where I have been, and I am definitely going to see the whole world when I start having my own money.
           </p>
         </div>
-        <div className='lg:px-12'>
+        <div className='xl:px-12'>
           <Image
             src="/images/travel.jpg"
             width={700}

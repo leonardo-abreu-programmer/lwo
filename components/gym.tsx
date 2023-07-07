@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Gym() {
   return (
     <>
-      <div className="grid lg:grid-cols-2 gap-4">
+      <div className="grid xl:grid-cols-2 gap-4">
         <div className="flex flex-col items-start justify-start">
           <h2 className="pb-6">Gym</h2>
           <p>
@@ -12,7 +12,7 @@ export default function Gym() {
             This lifestyle demands more effort, is more painful, and requires more energy, but seeing how my body improves in terms of strength and aesthetics is priceless.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-4 justify-items-start lg:px-12">
+        <div className="grid grid-cols-3 gap-4 justify-items-start xl:px-12">
           <Image 
             src="/images/gym.jpg" 
             width={500}

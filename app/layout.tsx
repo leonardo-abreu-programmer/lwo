@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" className='h-full'>
       <body className="bg-theme text-white relative w-full min-h-full grid">
         <Navbar/>
-        <main className="pt-16 pb-12 lg:px-72 p-4 grid gap-4">
+        <main className="pt-16 pb-12 xl:px-72 p-4 grid gap-4">
           {children}
         </main>
         <Footer/>   
