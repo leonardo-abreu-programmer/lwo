@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Gym() {
   return (
     <>
-      <div className="grid xl:grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-2 gap-4">
         <div className="flex flex-col items-start justify-start">
           <h2 className="pb-6">Gym</h2>
           <p>

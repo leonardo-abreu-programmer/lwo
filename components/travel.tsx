@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Travel() {
   return (
-    <div className="grid xl:grid-cols-2 gap-4">
+    <div className="grid lg:grid-cols-2 gap-4">
         <div className="h-min">
           <h2 className="pb-6">Travel</h2>
           <p className="pr-6">

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Music() {
   return (
-    <div className="grid xl:grid-cols-2 gap-4">
+    <div className="grid lg:grid-cols-2 gap-4">
         <Image 
           src="/images/music.jpg"
           width={700}
