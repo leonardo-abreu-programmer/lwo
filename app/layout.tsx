@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='h-full'>
+    <html lang="en" className='min-h-full'>
       <body className="bg-theme text-white relative w-full h-full">
         <Navbar/>
         <main className="pt-16 xl:px-72 p-4 grid">
